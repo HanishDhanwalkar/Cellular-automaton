@@ -37,4 +37,6 @@ img = ax.imshow(board, interpolation='nearest')
 
 ani = animation.FuncAnimation(fig, update_plot, frames=100, fargs=(img, board), interval=100)
 
+import time
+time.sleep(2)
 plt.show()
