@@ -14,9 +14,9 @@ class DrawingApp:
             x, y = event.xdata, event.ydata
             if x is not None and y is not None:
                 print(f"Clicked at: ({x:.2f}, {y:.2f})")
-                x = abs(int(x))
+                _x = abs(int(x))
                 _y = abs(int(y))
-                self.board[_y,x] = 1
+                self.board[_y,_x] = 1
                 self.ax.plot(x, y, 'ro')  
                 self.fig.canvas.draw_idle()
 
