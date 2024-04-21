@@ -4,8 +4,8 @@ A cellular automaton is a discrete model of computation studied in automata theo
 
 ## Conway-s-Game-of-Life
 <p float="left">
-  <img src="imgs\Game_of_life.gif" width= 30% />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" width=20%/> 
+  <img src="imgs\Game_of_life.gif" width= 400px />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" width=310px/> 
   <!-- <img src="/img3.png" width="100" /> -->
 </p>
 
