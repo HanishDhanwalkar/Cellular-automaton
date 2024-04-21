@@ -13,10 +13,11 @@ class DrawingApp:
         if event.button == 1:  # Left-click to draw
             x, y = event.xdata, event.ydata
             if x is not None and y is not None:
-                print(f"Clicked at: ({x:.2f}, {y:.2f})")
+                
                 _x = abs(int(x))
                 _y = abs(int(y))
                 self.board[_y,_x] = 1
+                print(f"Clicked at: ({x:.2f}, {y:.2f})--> {_x}, {_y}")
                 self.ax.plot(x, y, 'ro')  
                 self.fig.canvas.draw_idle()
 
